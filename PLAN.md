@@ -12,16 +12,16 @@ The goal of the project is to make a game with similar mechanics and vibe to the
 
 ## Assignments
 
-## D3.a: Core Mechanics (token collection and crafting)
+### D3.a: Core Mechanics (token collection and crafting)
 
 Key technical challenge: Can you assemble a map-based user interface using the Leaflet mapping framework?
 Key gameplay challenge: Can players collect and craft tokens from nearby locations to finally make one of sufficiently high value?
 
-### Steps
+#### A Steps
 
 - [x] Create the PLAN.md file
 - [ ] Display a leaflet map when the program is run
-- [ ] Draw grids on the map of even size (roughly the size of a building)
+- [ ] Draw grids on the map of even size (roughly the size of a small block)
 - [ ] Determine if a cell should be assigned a value and what the value should be (0,1,2,4)
 - [ ] Make sure the cells display their assigned value without interaction needed
 - [ ] The cells can be clicked to be interacted with
@@ -30,26 +30,26 @@ Key gameplay challenge: Can players collect and craft tokens from nearby locatio
 - [ ] If a cell has a value of zero, have the cell display nothing
 - [ ] Replace main.ts
 
-## D3.b: Globe-spanning gameplay
+### D3.b: Globe-spanning gameplay
 
-### Steps
+#### B Steps
 
 - [ ] Create steps for D3.b
 - [ ] Implement simulation for real world moving using arrow keys
 - [ ] As movement occurs, cells should continuously load
 - [ ] Use earth spanning coordinate system based at null island
 
-## D3.c: Object Persistence
+### D3.c: Object Persistence
 
-### Steps
+#### C Steps
 
 - [ ] Create steps for D3.c
 - [ ] Apply Flyweight memory saving strategy to save progress through play sessions
 - [ ] Use memento to save the value of cells when they go offscreen
 
-## D3.d: Gameplay Across Real World Space and Time
+### D3.d: Gameplay Across Real World Space and Time
 
-### Steps
+#### D Steps
 
 - [ ] Complete steps for D3.d
 - [ ] Implement real world tracking applied to the game map
